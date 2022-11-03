@@ -1,13 +1,20 @@
 #about {
     display: flex;
     flex-direction: row;
-    background-color: green;
-    justify-content: space-between;
+    /* background-color: green; */
+    justify-content: center;
 }
-
+#about-header {
+    padding: 0 20px;
+}
 #about-info {
     display: flex;
-    flex-direction: row;
-    margin: 20px 20px;
+    flex-direction: column;
+    margin: 0 20px;
     width: 50vw;
+}
+
+#about-info p {
+    padding: 10px 0;
+    margin: 0;
 }

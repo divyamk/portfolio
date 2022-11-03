@@ -3,6 +3,7 @@
     place-items: center;
     height: 100vh;
     font-size: 32px;
+	max-width: calc(100%);
     font-weight: bold;
     background-color: white;
 }
@@ -25,4 +26,13 @@
 
 .nav-item > .active {
     border-bottom: 1px solid #333;
+}
+
+.page-header__vertical {
+	writing-mode: tb-rl;
+    transform: rotate(-180deg);
+}
+
+html {
+	overflow-x: hidden;
 }

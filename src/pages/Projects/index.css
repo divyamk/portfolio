@@ -1,0 +1,26 @@
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    max-height: none;
+    /* overflow-x: hidden; */
+}
+#proj-head {
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+    margin-left: 5%;
+}
+
+.proj-container {
+    display: flex;
+    flex-direction: row;
+    background-color: gainsboro;
+    /* padding: 30px; */
+    margin-bottom: 10%;
+    justify-content: space-evenly;
+    height: 100%;
+    flex: 2;
+}

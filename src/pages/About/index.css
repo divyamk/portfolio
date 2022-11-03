@@ -1,0 +1,13 @@
+#about {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    justify-content: space-between;
+}
+
+#about-info {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px;
+    width: 50vw;
+}
